@@ -19,27 +19,27 @@ Telegram-бот на Python, который отвечает на любые с�
 ## Установка и запуск
 
 1. Клонируй репозиторий:
-
+```bash
 git clone https://github.com/alex05ru-wq/ai_bot.git
 cd ai_bot
-
+```
 2. Установи зависимости:
-
+```bash
 pip install pyTelegramBotAPI gigachat python-dotenv
-
+```
 3. Создай бота в Telegram через @BotFather и получи токен.
 
 4. Получи ключ GigaChat API на Sber Studio (developers.sber.ru).
 
 5. Создай файл .env в корне проекта:
-
+```bash
 TELEGRAM_TOKEN=твой_токен_от_BotFather
 GIGACHAT_KEY=твой_ключ_из_Sber_Studio
-
+```
 6. Запусти бота:
-
+```bash
 python bot.py
-
+```
 7. Открой бота в Telegram и напиши /start.
 
 ## Структура проекта
